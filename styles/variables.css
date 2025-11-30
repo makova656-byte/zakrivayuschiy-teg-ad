@@ -1,1 +1,21 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root{
+  --main-font: 'Inter';
+  --accent-font: 'PressStart2P';
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --main-font-size: 18px;
+  --accent-font-size: 14px;
+  --main-font-color: #000; 
+  --bg-color: #FFF;
+  --main-line-height: 21px;
+  --bd-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --card-gap: 50px;
+  --animation-fill-color: #F00;
+  --contour-color: #000;
+  --border-color: #000;
+  --text-shadow: #fff;
+  --header-width: clamp(min(100%, 375px), 50vw, 700px);
+  --title-font-size: clamp(3.063rem, 2.71rem + 1.5vw, 4.063rem);
+}
