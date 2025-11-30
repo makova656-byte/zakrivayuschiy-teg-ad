@@ -56,7 +56,7 @@
   width: clamp(min(100%, 375px), 50vw, 696px);
 }
 
-.top{
+.top {
   margin-top: 100px;
 }
 
@@ -83,7 +83,7 @@
 
 .image-wrapper img {
   width: 100%;
-  object-fit: cover;  
+  object-fit: cover;
   object-position: center;
 }
 
@@ -236,7 +236,7 @@
 
 }
 
-@media (width <= 375px){
+@media (width <= 375px) {
   .save__button {
     flex-direction: column;
   }
@@ -281,7 +281,7 @@
 .button__text {
   position: relative;
   z-index: 2;
-  color: #fff; 
+  color: #fff;
   mix-blend-mode: difference;
 }
 
@@ -290,7 +290,7 @@
 }
 
 .card__icon-button:focus {
-  outline: none; 
+  outline: none;
 }
 
 .card__icon-button:focus-visible {

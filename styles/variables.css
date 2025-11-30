@@ -1,11 +1,11 @@
-:root{
+:root {
   --main-font: 'Inter';
   --accent-font: 'PressStart2P';
   --normal-font-weight: 400;
   --bold-font-weight: 700;
   --main-font-size: 18px;
   --accent-font-size: 14px;
-  --main-font-color: #000; 
+  --main-font-color: #000;
   --bg-color: #FFF;
   --main-line-height: 21px;
   --bd-image: repeating-linear-gradient(to right, #d3d3d3 0, #d3d3d3 2px, transparent 2px, transparent 4px),
