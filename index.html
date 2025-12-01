@@ -345,8 +345,7 @@
     </div>
   </main>
   <footer class="save__button-wrapper">
-    <button class="button save__button" type="button"
-      onclick="event.preventDefault(); document.getElementById('dialog').showModal();">
+    <button class="button save__button" type="button" onclick="document.getElementById('dialog').showModal(); return false;">
       <svg class="icon-floppy" width="20" height="20">
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
@@ -355,13 +354,12 @@
   </footer>
   <dialog class="modal" id="dialog">
     <div class="dialog-text-wrapper">
-      <svg class="floppy" width="39" height="39">
+      <svg class="icon-floppy" width="39" height="39">
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
       <h2 class="modal_title">Вставьте дискету, чтобы продолжить</h2>
     </div>
-    <button class="button save-button modal_button" type="button"
-      onclick="event.preventDefault(); document.getElementById('dialog').close();">
+    <button class="button save-button modal_button" type="button" onclick="document.getElementById('dialog').close(); return false;">
       <span class="button__text">Ок</span>
     </button>
   </dialog>

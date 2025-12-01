@@ -195,6 +195,11 @@
   height: 21px;
 }
 
+.icon-floppy{
+  width: 39px;
+  height: 39px;
+}
+
 .modal[open] {
   width: clamp(min(100%, 341px), 50vw, 353px);
   display: flex;
